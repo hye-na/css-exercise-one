@@ -1,28 +1,29 @@
-body
-  font-size: 14px;
+body {
 }
 
-nav {
-  background color: yellow;
+p {
+  font-size: 14px;
+  margin: 0;
+  width: 60%;
+}
+
+ul {
+  background-color: yellow;
   height: 100px;
   margin-top: -10px;
   position: fixed;
   width: 100%;
-
-
-section {
-  margin: 0 auto;
-  width: 60%;
 }
 
+
 h1 {
-  font-family sans-serif;
+  font-family: sans-serif;
   font-size: 2em;
 }
 
-.example, h3 {
+.example, h3, .hello {
   padding-top: 30px;
-  text-align center
+  text-align: center;
 }
 
 h3 {
@@ -32,5 +33,24 @@ h3 {
 .element {
   background-color: green;
   height: 100px;
-  margin 10px 0;
+  margin: 10px;
   width: 100%;
+}
+
+
+  /* For the checkpoint assignment */
+
+h2 {
+    font-family: serif;
+    font-size: 3em;
+  }
+
+
+.hello {
+  background-color: pink;
+  font-family: serif;
+  height: 150px;
+  margin: 10px;
+  width: 50%;
+
+}
